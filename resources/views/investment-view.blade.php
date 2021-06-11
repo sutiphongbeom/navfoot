@@ -13,11 +13,11 @@
     <div class="col-6">
         <div class="card-content " style="width: 650px; height: 569px">
             <div class="card-body no-padding">
-
+            <div class="">
                     <a class="" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
                     <a class="" data-bs-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
                     <a class="" data-bs-toggle="collapse" href="#multiCollapseExample3" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
-    
+            </div>
                   <div class="row">
                     <div class="col">
                       <div class="collapse multi-collapse" id="multiCollapseExample1">
@@ -43,8 +43,11 @@
     </div>
     <div class="col-3 mr-1">
         <div class="card-content " style="width: 650px; height: 319px">
-            <div class="card-body no-padding">
-
+            <div class="card-body " style="padding-left:0px 0px 0px 31px; !important">
+              <div style="display: flex;">
+                <p style="left:31px; width:100%;">จำนวนเงินกองทุน<p>
+                  <p style="width:100% ">ข้อมูล ณ วันที่ 01/01/2564</p>
+              </div>
             </div>
         </div> 
     </div>

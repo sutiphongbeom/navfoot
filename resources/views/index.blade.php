@@ -4,7 +4,7 @@
 <div class="container mt-5">
     <div class="row">
         <div class="col-6 d-flex justify-content-start index-font2" style="font-size: 18px; color:#1a3686">
-            ภาพรวม <span class="help_outline"></span>
+            ภาพรวม <i class="fa fa-question-circle fa-lg"> </i><span class="help_outline"></span>
         </div>
         <div class="col-6 d-flex justify-content-end index-font3" style="font-size: 18px;color:#1a3686;">
             ข้อมูล ณ วันที่ 20 เม.ย. 2564
@@ -15,19 +15,22 @@
         <div class="col-6 ">
             <div class="card-content " style="width: 619px; height: 256px">
                 <div class="card-body no-padding">
-                    <p class="index-font2 box1-t1" style="font-size: 40px">10,000&nbsp;ราย</p>
+                  <div class="box1-t1" style="display: flex;">
+                    <h5 class="index-font2" style="font-size: 40px;">20,489&nbsp</h5>
+                    <p class="index-font3 " style="font-weight:300;margin-top:25px;font-size:18px;color: #000000;!important">ราย</p>
+                    </div>
                         <p class="index-font3 box1-t2">จำนวนนายจ้างทั้งหมด</p>
-                </div>
-                 <img src="{{asset('assets/icon/indexbox1.png')}} " class="box1-img1" >
-            </div> 
+                 </div> <img src="{{asset('assets/icon/indexbox1.png')}} " class="box1-img1" >
         </div>
+      </div>
         {{-- BOX1 --}}
         {{-- BOX2 --}}
         <div class="col-6">
             <div class="card-content" style="width: 619px; height: 256px">
                 <div class="card-body no-padding">
-                    <div class="box1-t1">
-                    <h5 class="index-font2" style="font-size: 40px;">20,489&nbspราย</h5>
+                    <div class="box1-t1" style="display: flex;">
+                    <h5 class="index-font2" style="font-size: 40px;">20,489&nbsp</h5>
+                    <p class="index-font3 " style="margin-top:25px;font-size:18px;color: #000000;!important">ราย</p>
                     </div>
                     <p class="index-font2 box1-t2" >จำนวนสมาชิกทั้งหมด</p> 
                 </div>
@@ -46,7 +49,7 @@
                         <div id="container"></div>
                         <p style="position: absolute;margin-left:225px;top:140px; font-size:25px;color: #1a3686;" class="index-font2">100,000.00</p>
                         <br>
-                        <p style="position: absolute;margin-left:250px;top:180px; font-size:20px;" class="index-font2">ล้านบาท</p>
+                        <p style="position: absolute;margin-left:250px;top:180px; font-size:20px;" class="index-font2" style="font-weight: bold;">ล้านบาท</p>
                         <p class="highcharts-description">
                             
 {{-- radius pie chart --}}

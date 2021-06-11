@@ -9,13 +9,13 @@
         <div class="col-2 mt-4 d-flex justify-content-end li-head " >
            <a href="" class="foot-nav"> ภาพรวม</a>
         </div>
-        <div class="col-1 mt-4 li-head" >
-            <a href="" class="foot-nav">ข้อมูลกองทุน</a>
+        <div class="col mt-4 li-head d-flex justify-content-center ">
+            <a href="" class="foot-nav" style="margin-left:30px;">ข้อมูลกองทุน</a>
         </div>
-        <div class="col-1 mt-4 li-head" >
-            <a href="" class="foot-nav">นโยบายการลงทุน</a>
+        <div class="col mt-4 li-head d-flex justify-content-center " >
+            <a href=""  class="foot-nav">นโยบายการลงทุน</a>
         </div>
-        <div class="col-3 mt-4">
+        <div class="col-3 mt-4 d-flex justify-content-center ">
             <ul class="list-group list-group-flush ">
                 <li class="li-head"><a href="" class="foot-nav">การจัดการ</a></li>
                 <li class="li-none"><a href="" class="foot-nav">การจัดการสิทธิ์</a></li>

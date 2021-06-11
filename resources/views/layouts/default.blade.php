@@ -21,6 +21,7 @@
 <script src="https://code.highcharts.com/modules/variable-pie.js"></script>
 <script src="https://code.highcharts.com/modules/export-data.js"></script>
 <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+{{-- radius --}}
     <style>
        @font-face {
     font-family: kanit-extralight;

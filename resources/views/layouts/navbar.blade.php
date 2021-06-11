@@ -6,9 +6,9 @@
         </a>
         <ul class="col-xs-10 col-7 navbar-nav mx-auto">
             <li class="nav-item"><a href="{{ route('dashboard') }}" class="nav-border-under index-font2" style="font-weight: normal;!important" >ภาพรวม</a></li>
-            <li class="nav-item"><a href="{{ route('investment-list') }}" class="nav-border-under index-font2" >ข้อมูลกองทุน</a></li>
-            <li class="nav-item"><a href="{{ route('investment-policy-list') }}" class="nav-border-under index-font2" >นโยบายการลงทุน</a></li>
-            <li class="nav-item"><a href="{{ route('manage-permissions-list') }}" class="nav-border-under index-font2" >การจัดการ</a></li>
+            <li class="nav-item"><a href="{{ route('investment-list') }}" class="nav-border-under index-font2" style="font-weight: normal;!important">ข้อมูลกองทุน</a></li>
+            <li class="nav-item"><a href="{{ route('investment-policy-list') }}" class="nav-border-under index-font2" style="font-weight: normal;!important">นโยบายการลงทุน</a></li>
+            <li class="nav-item"><a href="{{ route('manage-permissions-list') }}" class="nav-border-under index-font2" style="font-weight: normal;!important">การจัดการ</a></li>
         </ul>
         <ul class="col-xs-1 col-2 navbar-nav">
             <div class="btn-group">
